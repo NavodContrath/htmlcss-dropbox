@@ -15,6 +15,8 @@
     nav {
         background-color: rgb(192, 107, 107);
     }
+
+
 }
 
 /* #endregion-debug */
@@ -91,21 +93,30 @@
     margin: auto;
 }
 
+.l-none {
+    list-style: none;
+}
+
+.m-top-bot {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.light-btn {
+    a {
+        background-color: aqua;
+        color: white;
+    }
+}
+
 
 /* #endregion-utilities */
 header {
     position: fixed;
     width: 100%;
 
-    #nav-col1 {
-        ul {
-            list-style: none;
-        }
-    }
-
     #nav-col2 {
         ul {
-            list-style: none;
             justify-content: end;
         }
     }
