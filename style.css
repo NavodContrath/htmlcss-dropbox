@@ -81,17 +81,36 @@
     display: flex;
 }
 
-/* #endregion-utilities */
+.primary-cont {
+    width: 70%;
+    margin: auto;
+}
 
-#nav-col1 {
-    ul {
-        list-style: none;
+.secondary-cont {
+    width: 80%;
+    margin: auto;
+}
+
+
+/* #endregion-utilities */
+header {
+    position: fixed;
+    width: 100%;
+
+    #nav-col1 {
+        ul {
+            list-style: none;
+        }
+    }
+
+    #nav-col2 {
+        ul {
+            list-style: none;
+            justify-content: end;
+        }
     }
 }
 
-#nav-col2 {
-    ul {
-        list-style: none;
-        justify-content: end;
-    }
+#jumbotron {
+    margin-top: 5rem;
 }
