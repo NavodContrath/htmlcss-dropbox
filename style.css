@@ -220,13 +220,17 @@ header {
                         color: black;
                         font-size: smaller;
                     }
+
                 }
 
-                .light-btn {
+                li:last-child {
+                    width: 75px;
+                    background-color: var(--var-light-primary);
+                    text-align: center;
+
                     a {
                         color: white;
                     }
-
                 }
             }
 
