@@ -371,3 +371,37 @@ header {
 
     }
 }
+
+footer {
+    background-color: black;
+    color: white;
+
+    #foot-container {
+        margin-top: 6rem;
+        margin-bottom: 2rem;
+
+        h5 {
+            margin-bottom: 1rem;
+        }
+
+
+        li {
+            font-size: 0.7rem;
+            margin-bottom: 0.7rem;
+        }
+
+        #languages {
+            margin-top: 5rem;
+            font-size: 0.7rem;
+        }
+
+        #rule {
+            margin-top: 3rem;
+            margin-bottom: 3rem;
+            width: 40%;
+            border: 1px solid white;
+        }
+
+    }
+
+}
