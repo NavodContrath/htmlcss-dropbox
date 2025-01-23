@@ -3,6 +3,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Roboto", serif;
+}
+
+:root {
+    --var-light-btn: #0061fe;
 }
 
 /* #endregion-common */
@@ -12,10 +17,10 @@
         border: 1px dotted black;
     }
 
-    nav {
+    /*  nav {
         background-color: rgb(192, 107, 107);
     }
-
+ */
 
 }
 
@@ -116,16 +121,59 @@
 
 /* #endregion-utilities */
 header {
+    top: 0;
     position: fixed;
     width: 100%;
 
-    #nav-col2 {
-        ul {
-            justify-content: end;
+    #tool-bar {
+        align-items: center;
+        padding: 0.5rem;
+
+        #nav-col1 {
+
+
+            ul {
+                li {
+                    padding: 5px;
+
+                    a {
+                        text-decoration: none;
+                        color: black;
+                    }
+                }
+            }
+        }
+
+        #nav-col2 {
+            ul {
+                justify-content: end;
+
+                li {
+                    padding: 0 5px;
+
+                    a {
+                        text-decoration: none;
+                        color: black;
+                    }
+                }
+            }
+
+            #start-btn {
+                background-color: var(--var-light-btn);
+                border: none;
+
+                a {
+                    color: white;
+                }
+            }
         }
     }
+
+
 }
 
 #jumbotron {
-    margin-top: 5rem;
+    margin-top: 4rem;
+
+    background-color: #b4d0e6;
 }
