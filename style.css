@@ -135,6 +135,7 @@ header {
     position: fixed;
     width: 100%;
     z-index: 200;
+    padding: 0.5rem;
 
     #tool-bar {
         align-items: center;
@@ -144,8 +145,12 @@ header {
 
 
             ul {
+                margin-left: 1rem;
+                gap: 1rem;
+
                 li {
-                    padding: 5px;
+
+
 
                     a {
                         text-decoration: none;
@@ -158,9 +163,10 @@ header {
         #nav-col2 {
             ul {
                 justify-content: end;
+                gap: 1rem;
 
                 li {
-                    padding: 0 5px;
+                    padding: 5px;
 
                     a {
                         text-decoration: none;
@@ -215,11 +221,12 @@ header {
     .col-9 {
         flex-wrap: nowrap;
 
-        margin-bottom: -4rem;
+        margin-bottom: -6rem;
     }
 
 }
 
 #business-plan {
-    margin-top: 6rem;
+    margin-top: 10rem;
+
 }
