@@ -283,10 +283,6 @@ header {
             }
         }
 
-        #m-bot2 {
-            margin-bottom: 1.4rem;
-        }
-
         .col-12 {
             margin-top: 4rem;
             border: 1px solid;
@@ -302,11 +298,11 @@ header {
             ul {
                 list-style: none;
 
-                h3 {
+                h4 {
                     margin-bottom: 1rem;
                 }
 
-                h4 {
+                h5 {
                     margin-bottom: 2rem;
                 }
 
@@ -348,4 +344,30 @@ header {
     }
 
 
+}
+
+#actions {
+    h3 {
+        margin-left: 1rem;
+        font-size: 2rem;
+    }
+
+    h4 {
+        margin-bottom: 1.5rem;
+    }
+
+    p {
+        font-size: small;
+    }
+
+    .col-12 {
+        margin-top: 6rem;
+        margin-bottom: 6rem;
+
+        h2 {
+            font-size: 3rem;
+            margin-bottom: 3rem;
+        }
+
+    }
 }
