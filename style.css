@@ -10,9 +10,7 @@
     --var-light-btn: #0061fe;
 }
 
-a {
-    text-decoration: none;
-}
+
 
 /* #endregion-common */
 /* #region-debug */
@@ -38,6 +36,11 @@ a {
 .col {
     width: auto;
     flex-basis: auto;
+    margin: 0 -1rem;
+}
+
+[class^="col"] {
+    padding: 1rem;
 }
 
 .col-1 {
@@ -119,11 +122,22 @@ a {
     max-width: 100%;
 }
 
+.bold {
+    font-weight: bold;
+}
+
+.light-check {
+    color: var(--var-light-btn);
+}
+
+
 .light-btn {
     background-color: var(--var-light-btn);
     padding: 0.3rem;
     text-decoration: none;
     color: white;
+    font-size: smaller;
+
 
 }
 
@@ -135,26 +149,35 @@ header {
     position: fixed;
     width: 100%;
     z-index: 200;
-    padding: 0.5rem;
+    font-size: smaller;
+
 
     #tool-bar {
         align-items: center;
-        padding: 0.5rem;
+        font-size: large;
+
 
         #nav-col1 {
 
 
             ul {
+                align-items: center;
                 margin-left: 1rem;
                 gap: 1rem;
 
                 li {
-
-
+                    border-bottom: 3px solid transparent;
 
                     a {
                         text-decoration: none;
                         color: black;
+
+
+
+                    }
+
+                    &hover {
+                        border-color: black;
                     }
                 }
             }
@@ -189,22 +212,25 @@ header {
 }
 
 #jumbotron {
-    margin-top: 2rem;
     background-color: #b4d0e6;
     font-size: small;
-    padding-top: 4rem;
+    padding-top: 6rem;
 
     h1 {
-        font-size: 5.5rem;
+        font-size: 4rem;
     }
 
     .col-3 {
         position: relative;
 
+
+
         i {
             font-size: 4rem;
             position: absolute;
             bottom: 0;
+            color: black;
+
         }
     }
 
@@ -228,5 +254,85 @@ header {
 
 #business-plan {
     margin-top: 10rem;
+    border-top: 1px solid grey;
+
+    #business-cont {
+        margin-top: 4rem;
+
+        .card {
+            border: 1px solid;
+            margin-left: -1rem;
+            height: 100%;
+
+            .card-top {
+                text-align: center;
+                border-bottom: 1px solid;
+                margin-bottom: 1rem;
+            }
+
+            li {
+                margin-bottom: 1rem;
+            }
+        }
+
+        .col-12 {
+            margin-top: 4rem;
+            border: 1px solid;
+
+
+            .card-top {
+                text-align: center;
+                border-bottom: 1px solid;
+                margin-bottom: 1rem;
+            }
+
+            ul {
+                list-style: none;
+
+                h3 {
+                    margin-bottom: 1rem;
+                }
+
+                h4 {
+                    margin-bottom: 2rem;
+                }
+
+                #contact-btn {
+                    width: 30%;
+                    text-align: end;
+                    padding-top: 2px;
+
+                    a {
+                        width: 100%;
+                    }
+                }
+            }
+
+        }
+
+    }
+
+    #partner-description {
+        h3 {
+            margin-top: 3rem;
+            margin-bottom: 2rem;
+        }
+
+        p {
+            font-size: small;
+            margin-bottom: 2rem;
+        }
+
+        div {
+            a {
+
+                text-decoration: none;
+                color: black;
+                border: 1px solid black;
+                padding: 0.2rem;
+            }
+        }
+    }
+
 
 }
