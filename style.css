@@ -326,7 +326,7 @@ header {
             .li-middle {
                 text-align: center;
                 margin: 3rem auto;
-                width: 70%;
+                width: 80%;
                 background-color: var(--var-light-primary);
                 padding: 0.5rem;
 
@@ -417,9 +417,7 @@ header {
         margin-bottom: 1.5rem;
     }
 
-    p {
-        width: 90%;
-    }
+
 
     .col-12 {
         margin-top: 6rem;
