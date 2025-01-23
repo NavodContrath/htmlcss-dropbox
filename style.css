@@ -117,14 +117,6 @@
     margin-bottom: 2rem;
 }
 
-.m-left {
-    margin-left: -1rem;
-}
-
-.m-right {
-    margin-right: -1rem;
-}
-
 .w-20 {
     width: 20%;
 }
@@ -253,15 +245,17 @@ header {
 
     h1 {
         font-size: 5rem;
+
     }
 
     .col-4 {
+        padding: 0;
 
         i {
-
             font-size: 4rem;
             color: black;
             margin-left: -1rem;
+            margin-top: 2rem;
         }
     }
 
@@ -281,19 +275,24 @@ header {
     }
 
     .col-8 {
-        flex-wrap: nowrap;
-        margin-bottom: -6rem;
+        padding: 0;
+        margin-bottom: -8rem;
     }
 
 }
 
 #business-plan {
-    margin-top: 10rem;
+    margin-top: 6rem;
     border-top: 1px solid lightgrey;
 
     #business-cont {
-        margin-top: 4rem;
+        margin-top: 2rem;
 
+        h2 {
+            font-size: 2.5rem;
+            margin-bottom: 4rem;
+
+        }
 
         .card {
             border: 1px solid lightgrey;
@@ -331,20 +330,30 @@ header {
                 padding: 0.5rem;
 
             }
+
+            .month {
+                margin-bottom: 3rem;
+            }
         }
 
         .col-12 {
-            margin: 3rem 1rem 0 1rem;
-            border: 1px solid lightgrey;
+            margin-top: 2rem;
+            margin-bottom: 2rem;
+
+            #enterprise-container {
+                border: 1px solid lightgrey;
+                padding: 1rem;
+                margin-bottom: 2rem;
+            }
 
 
 
             .card-top {
                 text-align: center;
-                border-bottom: 1px solid lightgrey;
-                margin: 0 -1rem 1rem -1rem;
+                border: 1px solid lightgrey;
                 padding: 0.5rem;
                 align-items: center;
+                border-bottom: none;
 
             }
 
@@ -364,8 +373,6 @@ header {
                     width: 30%;
                     text-align: end;
 
-
-
                     a {
                         padding: 0.5rem;
                         width: 100%;
@@ -375,10 +382,15 @@ header {
             }
 
         }
+    }
 
+    #partner-container {
+        margin-top: 2rem;
+        margin-bottom: 4rem;
     }
 
     #partner-description {
+
         h3 {
             margin-top: 3rem;
             margin-bottom: 2rem;
@@ -419,7 +431,7 @@ header {
 
 
 
-    .col-12 {
+    #team {
         margin-top: 6rem;
         margin-bottom: 6rem;
 
