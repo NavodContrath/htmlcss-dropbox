@@ -10,6 +10,9 @@
     --var-light-primary: #0061fe;
 }
 
+body {
+    min-width: 1440px;
+}
 
 
 /* #endregion-common */
@@ -377,10 +380,9 @@ footer {
     color: white;
 
     #foot-container {
-        margin-top: 6rem;
-        margin-bottom: 2rem;
 
         h5 {
+            margin-top: 6rem;
             margin-bottom: 1rem;
         }
 
@@ -392,6 +394,7 @@ footer {
 
         #languages {
             margin-top: 5rem;
+            margin-bottom: 2rem;
             font-size: 0.7rem;
         }
 
