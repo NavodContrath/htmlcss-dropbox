@@ -10,6 +10,10 @@
     --var-light-btn: #0061fe;
 }
 
+a {
+    text-decoration: none;
+}
+
 /* #endregion-common */
 /* #region-debug */
 .debug {
@@ -111,19 +115,26 @@
     width: 20%;
 }
 
+.max-width-100 {
+    max-width: 100%;
+}
+
 .light-btn {
-    a {
-        background-color: aqua;
-        color: white;
-    }
+    background-color: var(--var-light-btn);
+    padding: 0.3rem;
+    text-decoration: none;
+    color: white;
+
 }
 
 
 /* #endregion-utilities */
 header {
+    background-color: white;
     top: 0;
     position: fixed;
     width: 100%;
+    z-index: 200;
 
     #tool-bar {
         align-items: center;
@@ -156,16 +167,15 @@ header {
                         color: black;
                     }
                 }
-            }
 
-            #start-btn {
-                background-color: var(--var-light-btn);
-                border: none;
+                .light-btn {
+                    a {
+                        color: white;
+                    }
 
-                a {
-                    color: white;
                 }
             }
+
         }
     }
 
@@ -173,7 +183,43 @@ header {
 }
 
 #jumbotron {
-    margin-top: 4rem;
-
+    margin-top: 2rem;
     background-color: #b4d0e6;
+    font-size: small;
+    padding-top: 4rem;
+
+    h1 {
+        font-size: 5.5rem;
+    }
+
+    .col-3 {
+        position: relative;
+
+        i {
+            font-size: 4rem;
+            position: absolute;
+            bottom: 0;
+        }
+    }
+
+    #free-trial {
+        a {
+            padding: 0.5rem;
+        }
+    }
+
+    #cancel {
+        color: black;
+    }
+
+    .col-9 {
+        flex-wrap: nowrap;
+
+        margin-bottom: -4rem;
+    }
+
+}
+
+#business-plan {
+    margin-top: 6rem;
 }
