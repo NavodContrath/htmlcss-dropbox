@@ -7,7 +7,7 @@
 }
 
 :root {
-    --var-light-btn: #0061fe;
+    --var-light-primary: #0061fe;
 }
 
 
@@ -126,19 +126,24 @@
     font-weight: bold;
 }
 
-.light-check {
-    color: var(--var-light-btn);
+.gap {
+    gap: 1rem;
 }
 
+.light-check {
+    color: var(--var-light-primary);
+}
+
+.light-link {
+    color: var(--var-light-primary);
+}
 
 .light-btn {
-    background-color: var(--var-light-btn);
+    background-color: var(--var-light-primary);
     padding: 0.3rem;
     text-decoration: none;
     color: white;
     font-size: smaller;
-
-
 }
 
 
@@ -149,7 +154,7 @@ header {
     position: fixed;
     width: 100%;
     z-index: 200;
-    font-size: smaller;
+
 
 
     #tool-bar {
@@ -171,6 +176,7 @@ header {
                     a {
                         text-decoration: none;
                         color: black;
+                        font-size: smaller;
 
 
 
@@ -194,6 +200,7 @@ header {
                     a {
                         text-decoration: none;
                         color: black;
+                        font-size: smaller;
                     }
                 }
 
@@ -218,6 +225,7 @@ header {
 
     h1 {
         font-size: 4rem;
+
     }
 
     .col-3 {
@@ -242,11 +250,11 @@ header {
 
     #cancel {
         color: black;
+        text-decoration: none;
     }
 
     .col-9 {
         flex-wrap: nowrap;
-
         margin-bottom: -6rem;
     }
 
@@ -275,6 +283,10 @@ header {
             }
         }
 
+        #m-bot2 {
+            margin-bottom: 1.4rem;
+        }
+
         .col-12 {
             margin-top: 4rem;
             border: 1px solid;
@@ -283,7 +295,8 @@ header {
             .card-top {
                 text-align: center;
                 border-bottom: 1px solid;
-                margin-bottom: 1rem;
+                margin: 0 -1rem 1rem -1rem;
+
             }
 
             ul {
